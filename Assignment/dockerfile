@@ -1,0 +1,5 @@
+#base image
+FROM python
+COPY . /Mostafa
+WORKDIR /Mostafa
+CMD python pythonfile.py
